@@ -6,7 +6,7 @@ import ContactForm from '../ContactForm/ContactForm';
 import SearchBox from '../SearchBox/SearchBox';
 import ContactList from '../ContactList/ContactList';
 import style from './App.module.css';
-import { fetchContacts } from '../../redux/contactOps';
+import { fetchContacts } from '../../redux/contactsOps';
 
 const App = () => {
     const dispatch = useDispatch();
