@@ -40,3 +40,8 @@
     gap: 4px;
     flex-direction: column;
   }
+  
+  .delete {
+    border-radius: 10px;
+    border: 1px solid darkgrey;
+  }
